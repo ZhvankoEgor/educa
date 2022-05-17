@@ -130,3 +130,5 @@ dmypy.json
 
 # Django
 /educa/settings.py
+/students/migrations/
+/courses/migrations/
