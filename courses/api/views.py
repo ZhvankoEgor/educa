@@ -41,6 +41,7 @@ class CourseViewSet(viewsets.ReadOnlyModelViewSet):
 #         course.students.add(request.user)
 #         return Response({'enrolled': True})
 
+
 class SubjectListView(generics.ListAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
